@@ -1,17 +1,26 @@
-# mansun
+# Mansun - Premium Weather Companion
 
-A new Flutter project.
+Mansun is a production-ready, clean-architecture weather application built using Flutter. It delivers real-time weather information, including dynamic humidity tracking and hourly precipitation probability, wrapped in a premium user interface.
 
-## Getting Started
+## 🚀 Features
+- **Real-Time Weather Data:** Fetches accurate, live data using the Open-Meteo API.
+- **Dynamic Assets:** Automatically shifts icons and visual elements based on the current weather condition (Sunny, Rainy, Cloudy, etc.).
+- **Hourly Rain Prediction:** Tracks the precise chance of rain for the current hour.
+- **Persistence (Local Storage):** Saves the last searched city securely using `shared_preferences` so it reloads instantly when the app opens.
+- **Premium User Experience:** Features a custom animated Splash Screen and a glassmorphic gradient user interface.
 
-This project is a starting point for a Flutter application.
+## 🛠️ Tech Stack & Architecture
+- **State Management:** Flutter BLoC (Business Logic Component) for clean separation of UI and logic.
+- **Network Client:** Dio for optimized and efficient API requests.
+- **Architecture:** Clean Data-Repository Layer pattern ensuring high scalability and testability.
+- **Local Storage:** SharedPreferences for persistent data caching.
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Screenshots
+<p align="center">
+  <img src="screenshots/home_screen.png" width="300" alt="Mansun Home Screen"/>
+</p>
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ⚙️ Setup & Installation
+1. Clone this repository:
+   ```bash
+   git clone [https://github.com/Rohan592708/mansun.git](https://github.com/Rohan592708/mansun.git)
